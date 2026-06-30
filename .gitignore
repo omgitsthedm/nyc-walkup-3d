@@ -1,2 +1,26 @@
-# Local Netlify folder
+
+!.env.example
+!.env.sample
+.cache/
+.DS_Store
+.env
+.env.*
 .netlify
+.netlify/
+.next/
+.vercel/
+*.env
+*.log
+*.zip
+# --- dependencies / build output ---
+# --- local cruft ---
+# --- secrets (NEVER commit) ---
+# Local Netlify folder
+backup/
+build/
+coverage/
+dist-*/
+dist/
+node_modules/
+out/
+tmp/
